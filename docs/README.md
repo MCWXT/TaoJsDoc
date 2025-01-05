@@ -8,8 +8,8 @@ config:
     background: tint-plate
     hero:
       name: TaoJs
-      tagline: 适合新手和个人博客使用
-      text: Tao.js是整合了Vue Tailwindcss Daisyui 的前端ESM博客框架。
+      tagline: 非构建式ESM框架
+      text: Tao.js是整合了Vue Tailwindcss Daisyui Axios 的前端ESM博客框架。
       actions:
         -
           theme: brand
