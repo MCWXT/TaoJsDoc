@@ -7,16 +7,20 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: TaoJs
+      tagline: 适合新手和个人博客使用
+      text: Tao.js是整合了Vue Tailwindcss Daisyui 的前端ESM博客框架。
       actions:
         -
           theme: brand
           text: 博客
           link: /blog/
         -
+          theme: brand
+          text: 文档
+          link: /notes/guide/
+        -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/MCWXT/TaoJs
 ---
