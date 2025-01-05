@@ -13,12 +13,12 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
-        -
-          theme: brand
           text: 文档
           link: /notes/guide/
+        -
+          theme: alt
+          text: 博客
+          link: https://mcwxt.top
         -
           theme: alt
           text: Github →
