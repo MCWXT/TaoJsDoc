@@ -13,4 +13,4 @@ Tao.js是整合了Vue Tailwindcss Daisyui Axios 的前端ESM博客框架，适�
   - Daisyui
   - Axios(请求)
 
-示例:[MCWXT的个人博客](https://mcwxt.top)
+示例:[Demo](https://tao-lake.vercel.app/)
