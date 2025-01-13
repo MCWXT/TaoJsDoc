@@ -6,7 +6,10 @@ export const navbar = defineNavbarConfig([
     text: '文档',
     items: [
       { text: 'Tao.js', link: '/guide/' },
+      { text: 'Vue.js', link: 'https://cn.vuejs.org' },
+      { text: 'Tailwindcss', link: 'https://tailwindcss.com' },
+      { text: 'Daisyui', link: 'https://daisyui.com' },
       ]
   },
-  { text: '博客', link: 'https://mcext.top' },
+  { text: '博客', link: 'https://mcwxt.top' },
 ])
