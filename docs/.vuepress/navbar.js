@@ -5,8 +5,7 @@ export const navbar = defineNavbarConfig([
   {
     text: '文档',
     items: [
-      { text: '简介', link: '/notes/guide/README.md' },
-      { text: '安装', link: '/notes/guide/安装.md' }
+      { text: 'Tao.js', link: '/Tao.js/guide/' },
       ]
   },
   { text: '标签', link: '/blog/tags/' },

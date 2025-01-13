@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'TaoJs',
+  title: 'Tao.js',
   description: 'Tao.js是整合了Vue Tailwindcss Daisyui 的前端ESM博客框架，适合新手和个人博客使用。',
 
   bundler: viteBundler(),
@@ -13,7 +13,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://taojs.mcwxt.top',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -30,7 +30,7 @@ export default defineUserConfig({
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
-    // blog: false, // 禁用博客
+    blog: false, // 禁用博客
     // blog: {
     //   postList: true, // 是否启用文章列表页
     //   tags: true, // 是否启用标签页
@@ -109,7 +109,7 @@ export default defineUserConfig({
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
       //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
-      //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
+        bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)

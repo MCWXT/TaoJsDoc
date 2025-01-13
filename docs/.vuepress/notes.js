@@ -1,13 +1,7 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const guide = defineNoteConfig({
-  dir: 'guide',
-  link: '/guide',
-  sidebar: ['', '安装'],
-})
-
 export const notes = defineNotesConfig({
-  dir: 'notes',
+  dir: 'guide',
   link: '/',
-  notes: [guide],
+  sidebar: 'auto',
 })
