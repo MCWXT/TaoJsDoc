@@ -29,8 +29,8 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '',
-    copyright: 'CC-BY-4.0',
+    message: 'Powered by <a href="https://mcwxt.top">mcwxt.top</a>',
+    copyright: 'Copyright © 2024-present MCWXT',
   },
 
   /**
