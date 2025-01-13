@@ -73,7 +73,7 @@ export default defineUserConfig({
       // },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      search: true,
 
       /**
        * Algolia DocSearch
@@ -151,17 +151,17 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
-      //   repo: '',
-      //   repoId: '',
-      //   category: '',
-      //   categoryId: '',
-      //   mapping: 'pathname',
-      //   reactionsEnabled: true,
-      //   inputPosition: 'top',
-      // },
+      comment: {
+        provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+        comment: true,
+        repo: 'MCWXT/TaoJs',
+        repoId: 'R_kgDONmBJzw',
+        category: 'General',
+        categoryId: 'DIC_kwDONmBJz84ClutJ',
+        mapping: 'pathname',
+        reactionsEnabled: true,
+        inputPosition: 'top',
+      },
     },
 
     /**
