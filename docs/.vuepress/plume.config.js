@@ -29,8 +29,8 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '本中文文档采用 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0) 进行许可。',
-    copyright: '',
+    message: '',
+    copyright: 'CC-BY-4.0',
   },
 
   /**
