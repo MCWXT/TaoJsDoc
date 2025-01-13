@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: 文档
-          link: /Tao.js/guide/
+          link: /guide/
         -
           theme: alt
           text: 示例
