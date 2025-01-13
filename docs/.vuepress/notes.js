@@ -7,7 +7,7 @@ const taojs = defineNoteConfig({
 })
 
 export const notes = defineNotesConfig({
-  dir: '/guides/',
-  link: '/guides/',
+  dir: '/guide/',
+  link: '/guide/',
   notes: [taojs],
 })
